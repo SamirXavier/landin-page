@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFuture Summit</title>
+</head>
+<body>
+    <header>
+        <h1>TechFuture Summit</h1>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre o evento</h2>
+        <p>Data: 30 de março</p>
+        <p>Local: Centro de Convenções</p>
+        <p>Resumo do tema: O futuro da tecnologia</p>
+        <p>O TechFuture Summit é um evento que reúne os maiores especialistas em tecnologia do mundo para discutir o futuro da área.</p>
+        <p>O evento é uma oportunidade única para aprender com os melhores e se preparar para os desafios do futuro.</p>
+
+    </section>
+
+    <section id="palestrantes">
+        <h2>palestrantes</h2>
+        <div class="palestrante">
+            <img src="https://i1.sndcdn.com/artworks-Zm374HJeDQjhzL4Y-oypyqg-t500x500.jpg" alt="Foto do palestrante 1">
+            <h3>Guy Kawasaki</h3>
+            <p>investidor e consultor em inovação e empreendedorismo.</p>
+        </div>
+        <div class="palestrante">
+            <img src="https://i1.sndcdn.com/artworks-000190900402-um3jnl-t500x500.jpg" alt="Foto do palestrante 2">
+            <h3>Ray Kurzweil</h3>
+            <p>inventor, futurista e autor</p>
+        </div>
+    </section>
+
+    <section id="inscrição">
+        <h2>inscreva-se</h2>
+        <form action="/enviar" method="post">
+            <label for="Nome">Nome:</label>
+            <input type="text" id="Nome" name="Nome" placeholder="Nome completo" required>
+
+            <label for="Email">E-mail:</label>
+            <input type="email" id="Email" name="Email" placeholder="techfuture@dominio.com" required>
+            
+            <p>tipo de ingresso</p>
+            <input type="radio" id="Presencial" name="ingresso" value="Presencial" required> Presencial
+            <input type="radio" id="Online" name="ingresso" value="Online" required> Online
+            
+            <label>
+                <input type="checkbox" name="termos" required>
+                Aceito os termos e condições
+            </label>
+
+            <button type="submit">enviar</button>
+        </form>
+    </section>
+
+    </section>
+</body>
+</html>
