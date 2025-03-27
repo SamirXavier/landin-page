@@ -1,0 +1,83 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F9FA;
+    color: #343A40;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Palestrantes */
+.palestrante {
+    margin: 20px 0;
+}
+
+.palestrante img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Rodapé */
+footer {
+    background-color: #343A40;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    section {
+        width: 90%;
+    }
+}
